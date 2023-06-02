@@ -1,0 +1,29 @@
+.container {
+  margin: auto;
+  background-color: beige;
+  max-width: 500px;
+  font-family: sans-serif;
+  padding: 1rem;
+}
+.headingAbout {
+  color: black;
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 0;
+  marign: auto;
+}
+.heading {
+  color: rebeccapurple;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.nav-link-item {
+  padding-right: 2rem;
+}
+.nav-link-text {
+  color: brown;
+}

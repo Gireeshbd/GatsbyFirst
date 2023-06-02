@@ -3,6 +3,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "./layout";
 import { headingAbout } from "../components/layout.module.css";
+import Seo from "./seo";
 // Step 2: Define your component
 const AboutPage = () => {
   return (
@@ -17,6 +18,6 @@ const AboutPage = () => {
     </Layout>
   );
 };
-export const Head = () => <title>About</title>;
+export const Head = () => <Seo title="About" />;
 // Step 3: Export your component
 export default AboutPage;

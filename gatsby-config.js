@@ -17,5 +17,8 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    "gatsby-plugin-mdx",
+    "gatsby-remark-autolink-headers",
+    "gatsby-transformer-sharp",
   ],
 };
